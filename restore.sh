@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Set start and end date
-START_DATE="2021-03-01"  # YYYY-MM-DD
-END_DATE="2021-08-18"    # YYYY-MM-DD
+START_DATE="2025-07-10"  # YYYY-MM-DD
+END_DATE="2025-11-18"    # YYYY-MM-DD
 
 # Min and max commits per selected day
 MIN_COMMITS=1
-MAX_COMMITS=3
+MAX_COMMITS=1
 
 # Min and max days per month to commit
-MIN_DAYS_PER_MONTH=6
-MAX_DAYS_PER_MONTH=7
+MIN_DAYS_PER_MONTH=16
+MAX_DAYS_PER_MONTH=17
 
 # Set author and committer name and email
 AUTHOR_NAME="ricardojikal0311"
@@ -18,26 +18,26 @@ AUTHOR_EMAIL="15992876+ricardojikal0311@users.noreply.github.com"
 
 # Updated commit messages from your extracted 20 logs
 commit_messages=(
-    "fix: adjust readme.md"
-    "Initial commit"
-    "Fix events caching issue"
-    "Fix NullPointerException crash when ReactContext is missing"
-    "update iOS MM SDK version"
-    "React Native support for 0.79"
     "ChatExceptionHandler improvements"
+    "Fix NullPointerException crash when ReactContext is missing"
+    "React Native support for 0.79"
+    "Fix events caching issue"
+    "Livechat loading fix"
+    "update iOS MM SDK version"
+    "Fixed issues with chat JWT and updated native version"
     "update iOS implementation"
-    "Fix Custom Notification Channel"
+    "Fixed chat customization feature"
     "Clean up deprecated InAppChat functions"
     "Chat JWT improvements"
-    "Fixed issues with chat JWT and updated native version"
     "openLivechatAction implementation"
-    "inAppChat attachments changes"
-    "update system data condition"
-    "Fixed Android sounds handling"
-    "Livechat loading fix"
+    "Fix Custom Notification Channel"
     "sync with iOS native"
+    "update system data condition"
     "add license file"
-    "Fixed chat customization feature"
+    "inAppChat attachments changes"
+    "Fixed Android sounds handling"
+    "fix: adjust readme.md"
+    "Initial commit"
 )
 
 
